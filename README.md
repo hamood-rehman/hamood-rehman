@@ -56,11 +56,13 @@ SiC devices rated above about 15kV are still mostly research parts, while discre
 
 ## Publications
 
-**Medium-voltage SiC**
+**Wide-bandgap power electronics**
 
-- **H. U. Rehman**, X. Zheng, X. Song, and Y. Zhao, "A 10kV SiC Switch Enabled by Voltage-Balanced 3.3kV MOSFETs Stacking," *IEEE APEC*, New Orleans, LA, 2027 (accepted, oral presentation).
-- **H. U. Rehman**, X. Song, and Y. Zhao, "Dynamic Voltage Balancing in Series-Connected SiC MOSFETs: Impact Quantification of Device and Circuit Parameter Variations," *IEEE APEC*, San Antonio, TX, 2026.
-- X. Zheng, **H. U. Rehman**, X. Song, and Y. Zhao, "A Simplified and Low-Cost Voltage Balancing Control Method for Series-Connected SiC MOSFETs," *IEEE APEC*, San Antonio, TX, 2026.
+- **H. U. Rehman**, X. Zeng, X. Song, and Y. Zhao, "A 10kV SiC Switch Enabled by Voltage-Balanced 3.3kV MOSFETs Stacking," *IEEE APEC*, New Orleans, LA, 2027 (accepted, oral presentation).
+- **H. U. Rehman**, Y. Zhao, and X. Song, "Dynamic Voltage Balancing in Series-Connected SiC MOSFETs: AI-Assisted Impact Quantification of Device Parameters Variation," *IEEE APEC*, San Antonio, TX, 2026, pp. 660–665.
+- X. Zeng, **H. U. Rehman**, X. Song, and Y. Zhao, "A Simplified and Low-Cost Voltage Balancing Control Method for Series-Connected SiC MOSFETs," *IEEE APEC*, San Antonio, TX, 2026.
+- M. D. Rahman, T. Akter, A. S. M. K. Hasan, **H. U. Rehman**, Y. Chen, H. A. Mantooth, and X. Song, "Design and Evaluation of a 650 V, 300 A GaN-Based Power Module with Integrated Drivers and Ultra-Low Inductance Layout," *IEEE WiPDA*, 2025, pp. 1–5.
+- S. Fakunle, **H. U. Rehman**, M. D. Rahman, and X. Song, "DC Partial Discharge Characterization of a Coreless PCB Transformer," *IEEE WiPDA*, 2025, pp. 1–6.
 - **H. U. Rehman** and X. Song, "Performance Analysis of Matching Networks in Wireless Gate-Driver Power Supply for MV SiC MOSFETs," *IEEE ECCE*, Philadelphia, PA, 2025. [doi:10.1109/ECCE58356.2025.11259774](https://doi.org/10.1109/ECCE58356.2025.11259774)
 
 **Earlier work**
