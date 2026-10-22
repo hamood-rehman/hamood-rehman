@@ -1,6 +1,6 @@
 # Hamood Rehman
 
-**3rd year Ph.D. student @ Power Switch Lab
+**3rd year Ph.D. student @ Power Switch Lab, University of Arkansas**
 
 I'm 3rd year Ph.D. student at Power Switch Lab, NSF GRAPES Center, at University of Arkansas, Fayetteville. My current research focus is on development of 20kV SiC switch using 6.5kV SiC MOSFETs with integrated gate-driver, isolate power supply, and active dv/dt control.  In summer 2026 I was an intern at Tesla, Palo Alto, CA, where I was part of Power Conversion Hub (PCH) team working on Tesla Powerwall 3.
 
