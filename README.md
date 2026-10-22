@@ -2,9 +2,9 @@
 
 **3rd year Ph.D. student @ Power Switch Lab, University of Arkansas**
 
-I'm 3rd year Ph.D. student at Power Switch Lab, NSF GRAPES Center, at University of Arkansas, Fayetteville. My current research focus is on development of 20kV SiC switch using 6.5kV SiC MOSFETs with integrated gate-driver, isolate power supply, and active dv/dt control. 
+I'm a third-year Ph.D. student in Electrical Engineering at the University of Arkansas, working in the Power Switch Lab at the NSF GRAPES Research Center with Dr. Xiaoqing Song. I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
 
-In summer 2026 I was an intern at Tesla, Palo Alto, CA, where I was part of Power Conversion Hub (PCH) team and I worked on troubleshooting and fixing HW issues in PowerWall 3. 
+In summer 2026 I interned with Tesla's Power Conversion Hub team in Palo Alto, working on Powerwall 3 hardware.
 
 [ORCID](https://orcid.org/0000-0003-4044-2703) · [Google Scholar](https://scholar.google.com/citations?user=B7MW3XgAAAAJ) · [LinkedIn](https://www.linkedin.com/in/hamoodurrehman/) · rehman@uark.edu
 
@@ -16,6 +16,10 @@ In summer 2026 I was an intern at Tesla, Palo Alto, CA, where I was part of Powe
 - **Active dv/dt control** for dynamic voltage balancing without snubbers or extra isolated supplies
 - **Isolated gate-driver power supplies** with high voltage-insulation and low coupling capacitance
 - **Measurement-driven sensitivity analysis** that links device parameter spread to switching behavior
+
+## Why series-stacked SiC
+
+SiC devices rated above about 15 kV are still mostly research parts, while 3.3 kV and 6.5 kV MOSFETs are readily available. Stacking them gives a practical high-voltage switch, as long as every device stays within its safe voltage during fast transients. That is the hard part: small mismatches in device parameters, gate drive, layout parasitics, or timing produce large voltage imbalance at SiC switching speeds. Switches like this matter for data-center power, where medium-voltage conversion closer to the grid removes conversion stages. They also simplify solid-state and hybrid DC circuit breakers, which need fast high-voltage interruption.
 
 ## Selected work
 
@@ -80,6 +84,6 @@ In summer 2026 I was an intern at Tesla, Palo Alto, CA, where I was part of Powe
 ## Background
 
 - **Ph.D., Electrical Engineering**, University of Arkansas, Fayetteville (2024–present)
-- **Power Electronics Intern**, Tesla Energy (summer 2026)
+- **Power Electronics Intern, Tesla Energy**, Palo Alto, CA (summer 2026), Power Conversion Hub team: troubleshot hardware issues on Powerwall 3 at an 800 V DC bus. Characterized the thermal and gain behavior of ground-fault circuit interrupter (GFCI) magnetic cores from several vendors across temperature. Built a MATLAB/Simulink tool for efficiency analysis of a split-phase DC–AC inverter using triangular current mode (TCM) control of interleaved T-type legs.
 - **Laboratory Instructor**, GIK Institute, Pakistan (2020–2024): upgraded the Linear Control Systems and DSP labs with Siemens S7-1214C PLCs and OMAP-L138 DSP kits, including new manuals and trainer boards
 - **M.S., Electrical Engineering**, GIK Institute, Pakistan (2017–2019)
