@@ -58,10 +58,10 @@ SiC devices rated above about 15 kV are still mostly research parts, while 3.3 k
 
 **Medium-voltage SiC**
 
+- **H. U. Rehman**, X. Zheng, X. Song, and Y. Zhao, "A 10kV SiC Switch Enabled by Voltage-Balanced 3.3kV MOSFETs Stacking," *IEEE APEC*, New Orleans, LA, 2027 (accepted, oral presentation).
 - **H. U. Rehman**, X. Song, and Y. Zhao, "Dynamic Voltage Balancing in Series-Connected SiC MOSFETs: Impact Quantification of Device and Circuit Parameter Variations," *IEEE APEC*, San Antonio, TX, 2026.
 - X. Zheng, **H. U. Rehman**, X. Song, and Y. Zhao, "A Simplified and Low-Cost Voltage Balancing Control Method for Series-Connected SiC MOSFETs," *IEEE APEC*, San Antonio, TX, 2026.
 - **H. U. Rehman** and X. Song, "Performance Analysis of Matching Networks in Wireless Gate-Driver Power Supply for MV SiC MOSFETs," *IEEE ECCE*, Philadelphia, PA, 2025. [doi:10.1109/ECCE58356.2025.11259774](https://doi.org/10.1109/ECCE58356.2025.11259774)
-- *Under review:* **H. U. Rehman**, X. Zheng, X. Song, and Y. Zhao, "A 10kV SiC Switch Enabled by Voltage-Balanced 3.3kV MOSFETs Stacking."
 
 **Earlier work**
 
