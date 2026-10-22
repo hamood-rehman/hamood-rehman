@@ -1,8 +1,8 @@
 # Hamood Rehman
 
-**Ph.D. student · Gate driver and isolated auxiliary power supply for MV SiC MOSFETs**
+**3rd year Ph.D. student @ Power Switch Lab
 
-I'm 3rd year Ph.D. student at Power Switch Lab, NSF GRAPES Center at University of Arkansas, Fayetteville. advised by Dr. Xiaoqing Song. I design, build, and test high-voltage SiC switch hardware: series-stacked MOSFETs, the gate drivers and isolated supplies that float with them, and the control that keeps voltage sharing in check during fast switching transients. In summer 2026 I worked with the Tesla Energy power electronics team.
+I'm 3rd year Ph.D. student at Power Switch Lab, NSF GRAPES Center, at University of Arkansas, Fayetteville. My current research focus is on development of 20kV SiC switch using 6.5kV SiC MOSFETs with integrated gate-driver, isolate power supply, and active dv/dt control.  In summer 2026 I was an intern at Tesla, Palo Alto, CA, where I was part of Power Conversion Hub (PCH) team working on Tesla Powerwall 3.
 
 [ORCID](https://orcid.org/0000-0003-4044-2703) · [Google Scholar](https://scholar.google.com/citations?user=B7MW3XgAAAAJ) · [LinkedIn](https://www.linkedin.com/in/hamoodurrehman/) · rehman@uark.edu
 
