@@ -45,7 +45,7 @@ SiC devices rated above about 15 kV are still mostly research parts, while 3.3 k
 - **Result:** the matching network and rectifier, not only the transformer gap and insulation, change coupling capacitance and common-mode immunity. Networks with fewer reactive elements held up better under high dv/dt.
 
 <p align="center">
-  <img src="assets/wpt-gdps-prototype.jpg" width="680" alt="Wireless gate-driver power supply prototype: GaN H-bridge, fixture for resonant networks, 128 x 116 mm PCB air-core transformer with 12.7 mm gap, and -5 V / +15 V rectifier outputs">
+  <img src="assets/Main%20Prototype%20Annotated.JPG" width="680" alt="Wireless gate-driver power supply prototype: GaN H-bridge, fixture for resonant networks, 128 x 116 mm PCB air-core transformer with 12.7 mm gap, and -5 V / +15 V rectifier outputs">
 </p>
 
 ### Other projects
