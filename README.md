@@ -1,8 +1,8 @@
-# Hamood ur Rehman
+# Hamood Rehman
 
-**Power electronics engineer · Medium- and high-voltage SiC switching · Gate drive and isolated auxiliary power**
+**Ph.D. student · Gate driver and isolated auxiliary power supply for MV SiC MOSFETs**
 
-Ph.D. researcher in Electrical Engineering at the University of Arkansas (Power Switch Lab, NSF GRAPES Center), advised by Dr. Xiaoqing Song. I design, build, and test high-voltage SiC switch hardware: series-stacked MOSFETs, the gate drivers and isolated supplies that float with them, and the control that keeps voltage sharing in check during fast switching transients. In summer 2026 I worked with the Tesla Energy power electronics team.
+I'm 3rd year Ph.D. student at Power Switch Lab, NSF GRAPES Center at University of Arkansas, Fayetteville. advised by Dr. Xiaoqing Song. I design, build, and test high-voltage SiC switch hardware: series-stacked MOSFETs, the gate drivers and isolated supplies that float with them, and the control that keeps voltage sharing in check during fast switching transients. In summer 2026 I worked with the Tesla Energy power electronics team.
 
 [ORCID](https://orcid.org/0000-0003-4044-2703) · [Google Scholar](https://scholar.google.com/citations?user=B7MW3XgAAAAJ) · [LinkedIn](https://www.linkedin.com/in/hamoodurrehman/) · rehman@uark.edu
 
@@ -10,9 +10,9 @@ Ph.D. researcher in Electrical Engineering at the University of Arkansas (Power 
 
 ## Current focus
 
-- **Series-connected SiC MOSFET switches** for 10–20 kV applications such as MV converters and solid-state circuit breakers
+- **Series-connected SiC MOSFET** for 10–20 kV applications such as MV converters and solid-state circuit breakers
 - **Active dv/dt control** for dynamic voltage balancing without snubbers or extra isolated supplies
-- **Isolated gate-driver power supplies** with high insulation and low coupling capacitance
+- **Isolated gate-driver power supplies** with high voltage-insulation and low coupling capacitance
 - **Measurement-driven sensitivity analysis** that links device parameter spread to switching behavior
 
 ## Selected work
