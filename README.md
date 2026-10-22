@@ -2,7 +2,7 @@
 
 **Medium-Voltage Power Electronics @ Power Switch Lab, University of Arkansas**
 
-I'm a third-year Ph.D. student in Electrical Engineering at the University of Arkansas, working in the Power Switch Lab at the NSF GRAPES Research Center with Dr. Xiaoqing Song. I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
+I'm a third-year Ph.D. student in the University of Arkansas, working in the Power Switch Lab at the NSF GRAPES Research Center with Dr. Xiaoqing Song. I build medium-voltage SiC-based experimental setups: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20kV SiC switch made from series-stacked 6.5kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
 
 In summer 2026 I interned with Tesla's Power Conversion Hub team in Palo Alto, working on Powerwall 3 hardware.
 
@@ -12,23 +12,23 @@ In summer 2026 I interned with Tesla's Power Conversion Hub team in Palo Alto, w
 
 ## Current focus
 
-- **Series-connected SiC MOSFET switches** for 10–20 kV applications such as MV converters and solid-state circuit breakers
+- **Series-connected SiC switches** for 10–20kV applications such as MV converters and solid-state circuit breakers
 - **Active dv/dt control** for dynamic voltage balancing without snubbers or extra isolated supplies
 - **Isolated gate-driver power supplies** with high voltage-insulation and low coupling capacitance
 - **Measurement-driven sensitivity analysis** that links device parameter spread to switching behavior
 
 ## Why series-stacked SiC
 
-SiC devices rated above about 15 kV are still mostly research parts, while 3.3 kV and 6.5 kV MOSFETs are readily available. Stacking them gives a practical high-voltage switch, as long as every device stays within its safe voltage during fast transients. That is the hard part: small mismatches in device parameters, gate drive, layout parasitics, or timing produce large voltage imbalance at SiC switching speeds. Switches like this matter for data-center power, where medium-voltage conversion closer to the grid removes conversion stages. They also simplify solid-state and hybrid DC circuit breakers, which need fast high-voltage interruption.
+SiC devices rated above about 15kV are still mostly research parts, while discrete 3.3kV\6.5kV\10kV MOSFETs are available. Stacking them gives a practical high-voltage switch, as long as every device stays within its safe voltage during fast transients. That is the hard part, because small mismatches in device parameters, gate drive, layout parasitics, or gate-signal timing produce large voltage imbalance at SiC switching speeds. Switches like this matter for data-center power, where medium-voltage conversion closer to the grid removes conversion stages. They also simplify solid-state and hybrid DC circuit breakers, which need fast high-voltage interruption.
 
 ## Selected work
 
-### 10 kV SiC switch from stacked 3.3 kV MOSFETs, toward a 20 kV platform
-*Ph.D. project: 20 kV High Voltage SiC Switch for Next Generation Energy Conversion and Grid Modernization*
+### 10kV SiC switch from stacked 3.3kV MOSFETs, toward a 20kV platform
+*Ph.D. project: 20kV High Voltage SiC Switch for Next Generation Energy Conversion and Grid Modernization*
 
-- Three Wolfspeed 3.3 kV / 52 A SiC MOSFETs in series, with signal, power, and control integrated at every stage. Each device has its own board with a gate driver, V<sub>DS</sub> sensing, and a local dv/dt controller, powered by an on-board two-stage, multichannel isolated auxiliary supply rated for 12 kV insulation. The boards stack modularly, so blocking voltage scales with the number of stages and the isolation rating of the supply.
-- **Voltage balancing:** a low-voltage NPN BJT in each MOSFET's Kelvin-source path acts as a voltage-controlled resistor during the turn-off Miller plateau. V<sub>DS</sub> is sampled and held on every pulse, and a PI loop sets the BJT base drive to slow or speed that device's turn-off dv/dt on the next pulse. Because the BJT emitter sits at the MOSFET source, the controller shares the gate driver's rail, so no additional isolated supply is needed per device.
-- **Status:** the 10 kV-rated prototype is built, and the balancing method has been validated experimentally on it at reduced bus voltage. The 20 kV version is the current design effort, using 6.5 kV-class devices and a single-stage, multichannel RF-switched auxiliary supply with 20 kV isolation. It has not yet been built or tested.
+- Three Wolfspeed 3.3kV / 52A SiC MOSFETs in series, with signal, power, and control integrated at every stage. Each device has its own board with a gate driver, V<sub>DS</sub> sensing, and a local dv/dt controller, powered by an on-board two-stage, multichannel isolated auxiliary supply rated for 12kV insulation. The boards stack modularly, so blocking voltage scales with the number of stages and the isolation rating of the supply.
+- **Voltage balancing:** a low-voltage NPN BJT in each MOSFET's Kelvin-source path acts as a voltage-controlled resistor during the turn-off Miller plateau. V<sub>DS</sub> is sampled and held on every pulse, and an analog PI controller sets the BJT base drive to slow or speed that device's turn-off dv/dt on the next pulse. Because the BJT emitter sits at the MOSFET source, the controller shares the gate driver's rail, so no additional isolated supply is needed per device.
+- **Status:** the 10kV-rated prototype is built, and the balancing method has been validated experimentally on it at reduced bus voltage. The 20kV version is the current design task, using 6.5kV-class devices and a single-stage, multichannel RF-switched auxiliary supply with 20kV isolation. It has not yet been built or tested.
 
 ### Which device mismatches actually cause voltage imbalance?
 *IEEE APEC 2026, oral presentation*
