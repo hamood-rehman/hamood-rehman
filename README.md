@@ -1,6 +1,6 @@
 # Hamood Rehman
 
-**3rd year Ph.D. student @ Power Switch Lab, University of Arkansas**
+**Medium-Voltage Power Electroncis @ Power Switch Lab, University of Arkansas**
 
 I'm a third-year Ph.D. student in Electrical Engineering at the University of Arkansas, working in the Power Switch Lab at the NSF GRAPES Research Center with Dr. Xiaoqing Song. I build medium-voltage SiC switching hardware: active dv/dt control for series-connected SiC MOSFETs, and the isolated gate drivers and auxiliary power supplies that medium-voltage devices need. My current project is a 20 kV SiC switch made from series-stacked 6.5 kV MOSFETs, with the gate driver, isolated supply, and dv/dt control integrated at every stage.
 
